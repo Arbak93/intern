@@ -1,0 +1,146 @@
+@font-face {
+  font-family: Unica One;
+  src: url('../../../Components/fonts/UnicaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Yeseva One;
+  src: url('../../../Components/fonts/YesevaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../../../Components/fonts/Roboto-Light.ttf');
+}
+
+.container4 {
+  box-sizing: border-box;
+  padding-top: 119px;
+  margin: 0px auto;
+  min-height: 940px;
+  max-width: 1440px;
+  border-radius: 5px;
+  background-color: 
+  #8372F0
+
+  /* display: flex;
+    flex-direction: column; */
+}
+
+
+.s3boximgs{
+  display: flex;
+
+  }
+.s3boximg{
+margin-left: 120px;
+max-width: 552px;
+min-height: 487px;
+margin-right: 73px;
+
+}
+
+ .s3boximg1hr{
+  
+  width: 100%;
+  min-height: auto;
+display: flex;
+align-items: center;
+margin-top: 42px;
+} 
+.aboutp{
+ max-width: 150px;
+ height: 25px;
+}
+.s3boximg1hr p{
+  
+  font-family: 'Unica One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  text-transform: uppercase;
+   color: #FFFFFF;
+   
+  
+}
+.s3boximg1hr .lin{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+max-width: 200px;
+height: 2px;
+width: 100%;
+background-color:#efedfd ;
+margin-left: 15px;
+
+}
+.s3boximg1h{
+min-height: 92px;
+max-width: 512px;
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+margin-top: 21px;
+color: #FFFFFF;
+
+}
+.s3boximg1p{
+  display: flex;
+  align-items: center;
+  min-height: 84px;
+  width: 100%;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+margin-top: 30px;
+color:#FFFFFF;
+}
+.s3box3_span{
+  height: 28px;
+  max-width: 109px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+margin-top: 35px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+border-bottom: 1px solid#FFFFFF;
+
+}
+.s3img{
+max-width: 575px;
+min-height: 700px;
+border: 2px solid black;
+
+}
+.s3boximg1{
+  position: relative;
+}
+.s3img1{ position: absolute; top: 255px; right: -16px;
+}
+.s3img2{
+position: absolute;
+bottom: 50px;
+right: 355px;
+}
+.s3img1 :hover{
+  transition:2s ;
+  transform: scale(1.5);
+  -webkit-transition:2s ;
+  -moz-transition:2s ;
+  -ms-transition:2s ;
+  -o-transition:2s ;
+}
+.s3img2 :hover{
+  transition:2s ;
+  transform: scale(1.5);
+  
+}

@@ -1,0 +1,43 @@
+@media screen and (max-width: 1134px){
+      
+.line_1 span{
+ margin-left: unset;
+ text-align: center;
+}
+.line_2 span{
+    margin-left: unset;
+   text-align: center;
+   }
+   .line_3 span{
+    margin-left: unset;
+   text-align: center;
+   }
+   .line_4 span{
+    margin-left: unset;
+   text-align: center;
+   }
+   .line_5 span{
+    margin-left: unset;
+   text-align: center;
+   }
+   .line_6 span{
+    margin-left: unset;
+   text-align: center;
+   }
+
+}
+@media screen and (max-width: 700px){
+
+.line p{
+font-weight: 20px;
+font-size: 25px;
+}
+.s2box{
+display: flex;
+flex-direction: column;
+}
+.s2box3{
+margin-left: unset;
+
+}
+}

@@ -1,0 +1,9 @@
+@media screen and (max-width:1024px){
+    .s3boximgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .s3img2{ position: absolute; top: 455px; right: -16px;}
+}

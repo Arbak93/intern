@@ -1,0 +1,180 @@
+@font-face {
+  font-family: Unica One;
+  src: url('../../../Components/fonts/UnicaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Yeseva One;
+  src: url('../../../Components/fonts/YesevaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../../../Components/fonts/Roboto-Light.ttf');
+}
+
+.container2 {
+  box-sizing: border-box;
+  padding-top: 119px;
+  margin: 0px auto;
+  min-height: 1555px;
+  max-width: 1440px;
+  border-radius: 5px;
+  background-color:#FFFFFF;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .s1box {
+    display: flex;
+    justify-content: space-between;
+    min-height: 181px;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: 120px;
+
+
+    .s1box1_ps {
+      display: flex;
+
+      .s1box1_p {
+        height: 24px;
+        max-width: 241px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+      }
+
+      hr {
+        max-width: 120px;
+        height: 1px;
+        background-color: rgb(122, 131, 122);
+        border: none
+      }
+
+      p {
+        font-family: 'Unica One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #373C42;
+
+      }
+    }
+
+    .s1box1_h2 {
+
+      min-height: 92px;
+      max-width: 504px;
+
+      h2 {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 46px;
+        color: #373C42;
+      }
+    }
+
+    .s1box2 {
+      max-width: 544px;
+      display: flex;
+      flex-direction: column;
+
+      .s1box2_p p {
+        min-height: 112px;
+        max-width: 544px;
+        width: 100%;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 35px;
+        color: #373C42;
+
+      }
+
+      .s1box2_span {
+
+        min-height: 28px;
+        max-width: 109px;
+        border-radius: nullpx;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        color: #373C42;
+        border-bottom: 1px solid #373C42;
+      }
+
+
+    }
+
+  }
+
+  .s1boximgs {
+    margin-top: 87px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    .s1boximg {
+      margin-left: 120px;
+      max-width: 355px;
+      min-height: 487px;
+
+      .s1boximg1hr {
+        display: flex;
+        align-items: center;
+        margin-top: 42px;
+
+        hr {
+          max-width: 120px;
+          background-color: #9181FF;
+          margin-left: 15px;
+        }
+      }
+
+      .s1boximg1h {
+        height: 36px;
+        max-width: 152px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        margin-top: 21px;
+        color: #373C42;
+        border-radius: nullpx;
+      }
+
+      .s1boximg1p {
+        display: flex;
+        align-items: center;
+        min-height: 100px;
+        max-width: 349px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+
+        color: #373C42;
+
+      }
+    }
+  }
+
+}

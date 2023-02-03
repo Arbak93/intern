@@ -1,0 +1,120 @@
+@media screen and (max-width: 1224px){
+
+.container{
+width: unset;
+width: 100%;
+height: unset;
+height: auto;
+}
+.imgs{
+   max-width: unset;
+    width: 100%;
+    position: unset;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    .img1{
+    max-width: unset;
+    min-height: unset;
+    position: unset;
+   position: static;
+}
+
+    .img2{
+    max-width: unset;
+    min-height: unset;
+    position: unset;
+    position: static;
+   }
+
+    .img3{
+    max-width:unset ;
+   
+    min-height: unset;
+  position: unset;
+  position: static;
+   
+    }
+}
+}
+   
+    
+    @media screen and (max-width: 100%){
+    
+        .imgs{
+            min-height: 700.890625px;
+            height: 100%;
+            max-width: 1380px;
+            width: 100%;
+            border-radius: 0px;
+            position: relative;
+            display: flex;
+          
+            margin-left: 30px;
+            border:2px solid black;
+            
+            
+        }
+        
+        .img3 {
+            min-height: 561.62451171875px;
+            max-width: 244.78472900390625px;
+            width: 100%;
+            position: absolute;
+            left: 953.94px;
+            top: 42px;
+            bottom: 0.68%;
+            z-index: 0;
+            background: #FFFFFF;
+            img{
+                width: 100%;
+                height: 100%;
+                }
+           
+        }
+        
+        .img2 {
+        
+            min-height: 518.3004760742188px;
+            max-width: 424.0533142089844px;
+            width: 100%;
+            position: absolute;
+            left: 574px;
+            top: 168px;
+            bottom: 0.48%;
+            z-index: 1;
+            background: #FFFFFF;
+            img{
+                width: 100%;
+                height: 100%;
+                }
+        
+        }
+        
+        .img1 {
+            min-height: 628.6475219726562px;
+            max-width: 640.8228759765625px;
+            width: 100%;
+            border-radius: 0px;
+            z-index: 2;
+            position: absolute;
+            left: 240.96px;
+            top: 74px;
+            background: #FFFFFF;
+            img{
+                width: 100%;
+                height: 100%;
+                }
+        
+        }
+    
+    }
+
+@media screen and (max-width: 508px){
+.header_title h3{
+font-size: unset;
+font-size: 45px;
+}
+
+}

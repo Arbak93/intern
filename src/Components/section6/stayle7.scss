@@ -1,0 +1,226 @@
+$app:rgba(202, 225, 23, 0.803);
+
+@font-face {
+  font-family: Unica One;
+  src: url('../../Components/fonts/UnicaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Yeseva One;
+  src: url('../../Components/fonts/YesevaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../../Components/fonts/Roboto-Light.ttf');
+}
+
+.container6 {
+  padding-top: 119px;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 1164px;
+  height: 100%;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 120px;
+  padding-right: 120px;
+
+  @media screen and (max-width:760px) {
+    // background-color: $app;
+    min-height: unset;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .s6textboxs {
+    max-width: 1200px;
+    min-height: 721px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @media screen and (max-width:760px) {
+      min-height: unset;
+      height: auto;
+
+    }
+
+    .s6textbox {
+      max-width: 576px;
+      min-height: 200px;
+
+      ///margin @m
+      p {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;
+      }
+
+    }
+
+    .navbar {
+      box-sizing: border-box;
+      max-width: 1200px;
+      width: 100%;
+      min-height: 40px;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      border-bottom: 1px solid black;
+      flex-wrap: wrap;
+
+
+
+      button {
+        border: none;
+        max-width: 390px;
+        width: 100%;
+        min-height: 40px;
+        height: 100%;
+        margin-bottom: -8px;
+        text-align: left;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-align: left;
+        background-color:#FFFFFF;
+
+        a {
+          text-decoration: none;
+          color: green
+        }
+
+        @media screen and (max-width:760px) {
+          min-height: unset;
+          height: auto;
+        }
+
+
+      }
+
+      button:hover {
+        border-bottom: 5px solid rgb(13, 13, 13);
+        text-transform: uppercase;
+
+      }
+
+      div {
+        max-width: 390px;
+        width: 100%;
+        min-height: 40px;
+        height: 100%;
+        background-color:#FFFFFF;
+
+
+        @media screen and (max-width:760px) {
+          min-height: unset;
+          height: auto;
+        }
+
+      }
+
+      @media screen and (max-width:760px) {
+        margin-bottom: 19px;
+        min-height: unset;
+        height: auto;
+        border: 1px solid green
+      }
+    }
+  }
+
+  .s6titleboxs {
+    display: flex;
+    justify-content: space-between;
+
+    .s6box11p p {
+      min-height: 84px;
+      max-width: 468px;
+      width: 100%;
+      height: 100%;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: #7F8893;
+    }
+
+    .s6box11_span {
+      min-height: 33px;
+      max-width: 84px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      color: #242121;
+      border-bottom: 1px solid#b43939;
+
+
+    }
+
+    @media screen and (max-width:760px) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .s6box11 {
+      max-width: 500px;
+      min-height: 263px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        min-height: 46px;
+        height: 100%;
+        max-width: 395px;
+        font-family: Yeseva One;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 39px;
+        line-height: 46px;
+        margin-top: 25px;
+        color: #1f1d1d;
+
+      }
+
+      .s6box11hr {
+        max-width: 275px;
+        width: 100%;
+        min-height: 24px;
+        display: flex;
+        align-items: center;
+
+        .hr {
+          max-width: 100px;
+          width: 100%;
+          height: 2px;
+          background-color: #9181FF;
+          margin-left: 15px;
+
+        }
+
+      }
+    }
+
+
+  }
+
+}

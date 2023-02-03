@@ -1,0 +1,17 @@
+@media screen and (max-width:724px){
+    .s4box2{
+    max-width: unset;
+    margin-left: 25px;
+    padding-right: 25px;
+}
+.s4box3{
+    max-width: unset;
+    margin-left: 25px;
+    padding-right: 25px;
+}
+.s4box1{
+    max-width: unset;
+    margin-left: 25px;
+    padding-right: 25px;
+}
+}

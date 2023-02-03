@@ -1,0 +1,272 @@
+@font-face {
+  font-family: Unica One;
+  src: url('../../Components/fonts/UnicaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Yeseva One;
+  src: url('../../Components/fonts/YesevaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../../Components/fonts/Roboto-Light.ttf');
+}
+
+.container5 {
+  box-sizing: border-box;
+  padding-top: 119px;
+  margin: 0px auto;
+  min-height: 1063px;
+  height: 100%;
+  max-width: 1440px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+.s4box1 {
+  max-width: 595px;
+  min-height: 775px;
+  height: 100%;
+
+
+}
+
+.s4box2 {
+  max-width: 595px;
+  min-height: 638px;
+  height: 100%;
+  display: flex;
+  margin-top: 100px;
+
+}
+
+.s4box3 {
+  max-width: 1200px;
+  width: 100%;
+  min-height: 500px;
+  height: 100%;
+  border: 1px solid #ABB9CA;
+
+  margin-top: -300px;
+  border-bottom: none
+}
+
+.s4box {
+  display: flex;
+  max-width: 1200px;
+  min-height: 925px;
+  height: 100%;
+  flex-wrap: wrap;
+
+
+}
+
+
+.s4box11 {
+  max-width: 500px;
+  min-height: 263px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+
+
+
+}
+
+.s4box11hr {
+  max-width: 275px;
+  width: 100%;
+  min-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.s4box11hr p {
+
+  font-family: 'Unica One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #211a1a;
+  line-height: 28px;
+
+
+}
+
+.s4box11hr .hr {
+  max-width: 100px;
+  width: 100%;
+  height: 2px;
+  background-color: #9181FF;
+  margin-left: 15px;
+
+}
+
+.s4box11h p {
+  min-height: 46px;
+  height: 100%;
+  max-width: 395px;
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 46px;
+  /* identical to box height, or 138% */
+  margin-top: 20px;
+
+  color: #1f1d1d;
+
+}
+
+.s4box11p p {
+  min-height: 84px;
+  max-width: 468px;
+  width: 100%;
+  height: 100%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #7F8893;
+
+
+}
+
+.s4box11_span {
+  min-height: 33px;
+  max-width: 84px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #242121;
+  border-bottom: 1px solid#b43939;
+
+
+}
+
+.s4box12 {
+  display: flex;
+  flex-direction: column;
+  max-width: 299px;
+  min-height: 448px;
+  height: 100%;
+  margin-left: 299px;
+  border-left: 2px solid #ABB9CA;
+  margin-top: 38px;
+
+}
+
+.s4box12h {
+  margin-left: 22px;
+  max-width: 145px;
+  height: 23px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height, or 115% */
+  display: flex;
+  align-items: center;
+
+  color: #373C42;
+
+
+}
+
+.s4box12p {
+  max-width: 237px;
+  min-height: 75px;
+  margin-top: 15px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  margin-left: 22px;
+  display: flex;
+  align-items: center;
+  color: #373C42;
+
+}
+
+.kub {
+  width: 15px;
+  height: 15px;
+  background-color: #FFFFFF;
+  margin-left: -8px;
+  margin-top: 310px;
+  border: 2px solid #ABB9CA;
+}
+
+.kub2 {
+  width: 15px;
+  height: 15px;
+  background-color: #FFFFFF;
+  margin-left: -8px;
+  margin-top: 310px;
+  border: 2px solid #ABB9CA;
+}
+
+.s4box22 {
+  display: flex;
+  flex-direction: column;
+  max-width: 299px;
+  min-height: 448px;
+  height: 100%;
+  border-left: 2px solid #ABB9CA;
+  margin-top: 100px;
+
+}
+
+.s4box222 {
+  display: flex;
+  flex-direction: column;
+  max-width: 299px;
+  min-height: 448px;
+  margin-top: 245px;
+  border-left: 2px solid #ABB9CA;
+}
+
+.kub3 {
+
+  width: 15px;
+  height: 15px;
+  background-color: #FFFFFF;
+  margin-left: -8px;
+  margin-top: 310px;
+  border: 2px solid #ABB9CA;
+}
+
+.kubs {
+
+  width: 60px;
+  height: 13px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.kubs div {
+  background-color: #9181FF;
+  width: 13px;
+  height: 13px;
+}

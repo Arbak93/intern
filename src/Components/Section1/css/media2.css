@@ -1,0 +1,20 @@
+@media screen and (max-width:1028px) {
+    .s1box{
+        max-width: unset;
+ width: auto;
+        min-height: unset;
+     height: auto;
+    min-height: unset;
+     margin-left: unset;
+    display: flex;
+    flex-direction: column;
+   
+    }
+
+    .s1box2_p p{
+        max-width: unset;
+        width: 100%;
+       max-width: unset;
+
+    }
+}

@@ -1,0 +1,282 @@
+@font-face {
+    font-family: Unica One;
+    src: url('../../Components/fonts/UnicaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: Yeseva One;
+    src: url('../../Components/fonts/YesevaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../../Components/fonts/Roboto-Light.ttf');
+}
+
+* {
+    box-sizing: border-box
+}
+
+.container8 {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    min-height: 1229px;
+    height: 100%;
+    background-color:#FFFFFF;;
+    padding-top: 134px;
+    padding-left: 120px;
+    padding-right: 120px;
+      display: flex;
+      justify-content: space-between;
+    flex-wrap: wrap;
+
+
+    .s9box1 {
+        width: 100%;
+        min-height: 250px;
+        height: 100%;
+
+
+        .s9boxtitle {
+            max-width: 575px;
+            width: 100%;
+            min-height: 250px;
+            height: 100%;
+
+
+            .s9boxtitlehr {
+                width: 100%;
+                min-height: auto;
+                display: flex;
+                align-items: center;
+                margin-top: 42px;
+
+                .aboutp {
+                    max-width: 150px;
+                    height: 25px;
+
+                    p {
+                        font-family: 'Unica One';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 19px;
+                        line-height: 24px;
+                        text-transform: uppercase;
+                        color: #2e2d30;
+                    }
+                }
+
+                .lin {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    max-width: 120px;
+                    height: 1px;
+                    width: 100%;
+                    background-color: #9181FF;
+                    margin-left: 15px;
+
+                }
+
+            }
+
+            .s9boxtitleh {
+                min-height: 92px;
+                max-width: 512px;
+                font-family: 'Yeseva One';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 46px;
+                margin-top: 21px;
+                color: #2e2d30;
+            }
+
+            .s9boxtitletext {
+                display: flex;
+                align-items: center;
+                min-height: 84px;
+                width: 100%;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                margin-top: 30px;
+                color: #2e2d30;
+            }
+
+
+        }
+    }
+
+    .s9forms {
+        max-width: 565px;
+        width: 100%;
+        min-height: 679px;
+        height: 100%;
+        display: flex;
+        background-color: #8372F0;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 85px;
+        position: relative;
+        
+
+        .s9formstitle {
+            max-width: 565px;
+            min-height: 146px;
+            width: 100%;
+       padding-left: 40px;
+       padding-right: 41px;
+            
+            .aboliut {
+                width: 55px;
+                height: 55px;
+                background-color: #C4BCEC;
+                position: absolute;
+                left: -28px;
+                top: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Unica One';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 28px;
+                color: #373C42;
+    
+            }
+            .s9formstitlehr {
+                font-family: 'Unica One';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                margin-top: 39px;
+
+
+
+            }
+
+            .s9formstitletext {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                color: #FFFFFF;
+                margin-top: 11px;
+            }
+
+            .s9formstitlebutton {
+                border-bottom: 1px solid #373C42;
+                max-width: 139px;
+                height: 28px;
+
+                p {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 28px;
+                    color: #373C42;
+
+                }
+            }
+        }
+
+    }
+
+    .s9formsrezult {
+        max-width: 565px;
+        width: 100%;
+        min-height: 229px;
+        height: 100%;
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+        margin-top: 85px;
+        .s9formsrezulttitle2{
+            margin-top: 110px;
+            max-width: 484px;
+            min-height: 376px;
+            width: 100vh;
+            position: relative;
+            background-color:#9181FF;
+            padding-left: 40px;
+            }
+        .s9formsrezulttitle {
+            max-width: 484px;
+            min-height: 226px;
+            width: 100vh;
+            position: relative;
+            background-color:#9181FF;
+            padding-left: 40px;
+           
+            .aboliut {
+                width: 55px;
+                height: 55px;
+                background-color: #C4BCEC;
+                position: absolute;
+                left: -28px;
+                top: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Unica One';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 28px;
+                color: #373C42;
+    
+            }
+            .s9formsrezulttitlehr {
+                font-family: 'Unica One';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                margin-top: 39px;
+
+
+
+            }
+
+            .s9formsrezulttitletext {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                color: #FFFFFF;
+                margin-top: 11px;
+            }
+
+            .s9formsrezulttitlebutton {
+                border-bottom: 1px solid #373C42;
+                max-width: 139px;
+                height: 28px;
+
+                p {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 28px;
+                    color: #373C42;
+
+                }
+            }
+        }
+
+
+    }
+}
